@@ -1,0 +1,13 @@
+{
+  "hooks": {
+    "PreCompact": [
+      { "command": "node \"<REPO>/hooks/pre-compact.js\"" }
+    ],
+    "SessionStart": [
+      { "command": "node \"<REPO>/hooks/session-start.js\"" }
+    ],
+    "Stop": [
+      { "command": "node \"<REPO>/hooks/stop.js\"" }
+    ]
+  }
+}
